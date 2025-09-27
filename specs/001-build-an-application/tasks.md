@@ -48,13 +48,13 @@
 
 **CONSTITUTIONAL REQUIREMENT: Code Quality Standards (Principle I)**
 
-- [ ] T001 Create project structure: `backend/`, `frontend/`, `docker-compose.yml`
-- [ ] T002 Initialize backend Node.js project with Express.js dependencies in `backend/`
-- [ ] T003 Initialize frontend React TypeScript project with Vite in `frontend/`
-- [ ] T004 [P] Configure ESLint and Prettier for backend in `backend/.eslintrc.ts`
-- [ ] T005 [P] Configure ESLint and Prettier for frontend in `frontend/.eslintrc.ts`
-- [ ] T006 [P] Set up backend security scanning with npm audit in `backend/package.json`
-- [ ] T007 [P] Set up frontend security scanning with npm audit in `frontend/package.json`
+- [x] T001 Create project structure: `backend/`, `frontend/`, `docker-compose.yml`
+- [x] T002 Initialize backend Node.js project with Express.js dependencies in `backend/`
+- [x] T003 Initialize frontend React TypeScript project with Vite in `frontend/`
+- [x] T004 [P] Configure ESLint and Prettier for backend in `backend/.eslintrc.js`
+- [x] T005 [P] Configure ESLint and Prettier for frontend in `frontend/eslint.config.js`
+- [x] T006 [P] Set up backend security scanning with npm audit in `backend/package.json`
+- [x] T007 [P] Set up frontend security scanning with npm audit in `frontend/package.json`
 - [ ] T008 [P] Configure backend test coverage with Jest in `backend/jest.config.ts`
 - [ ] T009 [P] Configure frontend test coverage with Vitest in `frontend/vitest.config.ts`
 - [ ] T010 Set up PostgreSQL Docker container in `docker-compose.yml`
